@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg,#03fce7, #03fc95) !important;  
+}
+.nav_bgc{
+    background: linear-gradient(90deg,#ff8a00, #ff304f) !important;
+}
+.navbar-nav .nav-item a{
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 30px !important;
+    
+}
+.card1{
+    background: linear-gradient( #ffaf00, #ff8615) !important;
+}
+.card2{
+    background: linear-gradient( #b95bfe, #155ed2) !important;
+}
+.card3{
+    background: linear-gradient( #ff3051, #ff1c97) !important;
+  
+}
+.card4{
+    background: linear-gradient( #fe14e7, #b71fe0) !important;
+}
+.card h5{
+    font-family: 'Titillium Web', sans-serif !important; 
+    font-size: 35px !important;
+    opacity: 1 !important;
+}
+.card p{
+    font-family: 'Inconsolata', monospace !important; 
+}
+.card_about1{
+    background: linear-gradient(90deg,#fd08f4, #fc0127) !important;
+    padding: 5% !important;
+
+    
+}
+
+.card_about1 h5{
+    font-family: 'Titillium Web', sans-serif !important; 
+    font-size: 50px !important;
+    font-weight: bolder !important;
+}
+.card_about1 p{
+    font-family: 'Inconsolata', monospace !important; 
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
+.btn_color{
+    background: linear-gradient(90deg, #ff8a00, #ff304f) !important;
+}
+/* .back_img_ourschool{
+    background-image:url(img/about_img3.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    
+    width: 100%;
+} */
+
+.card5{
+background: linear-gradient(red, blue);
+    padding: 5% 2% !important;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center !important;
+    text-align: !important;
+    
+}
+.about_sce img{
+    background-attachment: fixed !important;
+}
+.card_event{
+    background: linear-gradient( #ffaf00, #ff8615) !important;
+    padding: 5% !important;
+}
+.card_event h5{
+    font-family: 'Titillium Web', sans-serif !important; 
+    font-size: 30px !important;
+    font-weight: bolder !important;
+}
+.card_event p{
+    font-family: 'Inconsolata', monospace !important; 
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+.our_team{
+    padding-top: 5% !important;
+}
+.our_team_setup{
+    padding-top: 5% !important;
+}
+.img_setup{
+    margin-top: -35% !important;
+}
+.hide_info{
+    display: none;
+    padding-top: 10px !important;
+    margin-top: 20px !important;
+}
+.card10{
+    background: linear-gradient( #0099e1, #007bc6 ) !important;
+}
+.selector-for-some-widget{
+    box-sizing: content-box !important;
+}
+.google_map{
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+}
+.google_map iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+.icon_img img{
+    padding:0 5% !important;
+}
+
+@media (max-width: 768px) {
+    .card h5{
+        font-family: 'Titillium Web', sans-serif !important; 
+        font-size: 25px !important;
+    }
+    .card p{
+        font-family: 'Inconsolata', monospace !important; 
+        font-size: 12px !important;
+    }
+   
+    .card_about1 h5{
+        font-family: 'Titillium Web', sans-serif !important; 
+        font-size:  35px !important;
+        font-weight: bolder !important;
+    }
+    .card_about1 p{
+        font-family: 'Inconsolata', monospace !important; 
+        font-size: 15px !important;
+        font-weight: bold !important;
+    }
+    .card_about1 button{
+        padding:5% 10% !important;
+       
+    }
+    .card5{
+        background: linear-gradient(red, blue);
+        opacity: 0.6 !important;
+        margin: auto !important;
+        padding: auto !important;
+        
+        }
+        .our_team_setup{
+            padding-top: 40% !important;
+            }
+
+        @media (max-width: 580px) {
+            .card_about1 h5{
+                font-family: 'Titillium Web', sans-serif !important; 
+                font-size:  25px !important;
+                font-weight: bolder !important;
+                opacity: 1 !important;
+            }
+            .card_about1 p{
+                font-family: 'Inconsolata', monospace !important; 
+                font-size: 10px !important;
+                font-weight: bold !important;
+            }
+           
+            .card_event{
+                background: linear-gradient( #ffaf00, #ff8615) !important;
+                padding: 2% !important;
+            }
+            .card_event h5{
+                font-family: 'Titillium Web', sans-serif !important; 
+                font-size: 25px !important;
+                font-weight: bolder !important;
+            }
+            .card_event p{
+                font-family: 'Inconsolata', monospace !important; 
+                font-size: 12px !important;
+                font-weight: bold !important;
+            }
+
+
+
+            @media (max-width: 650px) {
+              .our_school .card5 h5{
+                    font-size: 12px !important;
+                    font-weight: 200 !important;
+                    padding-bottom: 1% !important;
+                }
+                .our_school .card5 p{
+                    font-size: 8px !important;
+                    font-weight: 200 !important;
+                    padding-bottom: 1% !important;
+                    padding-top: 1% !important;
+                }
+                .our_school .card5 button{
+                    font-size: 8px !important;
+                    font-weight: 200 !important;
+                    padding: 1% 2% !important;
+                }
